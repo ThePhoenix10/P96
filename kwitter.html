@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chitter Chatter</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body id = "chitter_chatter">
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-primary" onclick="logout()">Logout</button>
+	<center>
+		<h1 id = "cc_title">Chitter Chatter</h1>
+        <h2 id = "welcome"></h2>
+		<label style="color: blue;">Add Room</label>
+		<input type = "text" class = "form-control" id = "room_name" placeholder="Room Name">
+        <br>
+		<button  class="btn btn-info" onclick="addRoom()" id = "addRoom">Add Room</button>
+		<h3 style="color: blue;" id = "trending">Popular Rooms</h3>
+		<div id = "output"></div>
+	</center>
+</div>
+<script src="kwitter.js"></script>
+</body>
+</html>

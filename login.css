@@ -1,0 +1,73 @@
+#login
+{
+background-image: url("Social Media-2.webp");
+}
+#cc_title{
+    color: blue;
+    font-family: 'Beau Rivage', cursive;;
+    font-size: 100px;
+}
+.header
+{
+    font-size: 100px;
+	color: greenyellow;
+    font-family: 'Beau Rivage', cursive;;
+}
+.login_div
+{
+	background: rgba(255,255,255,0.8);
+    float: none;
+    border-radius: 30px;
+}
+#login_button
+{
+	width: 80%;
+    border-radius: 15px;
+}
+#login_button:hover{
+    color: #39FF14;
+    background-color: blue;
+}
+#user_name{
+    background-color: greenyellow;
+    color: blue;
+}
+.text{
+    color: blue;
+}
+#chitter_chatter{
+    background-image: url("Gradient-3.jpeg");
+}
+#room_name{
+    background-color: purple;
+    color: greenyellow;
+}
+#addRoom:hover{
+    color: #39FF14;
+    background-color: blue;
+}
+#welcome{
+    color: blue;
+    font-family: 'Beau Rivage', cursive;;
+    font-size: 50px;
+}
+#logout:hover{
+    color: #39FF14;
+    background-color: blue;
+}
+#trending{
+    font-family: 'Beau Rivage', cursive;;
+    font-size: 35px;
+}
+#message{
+    background-image: url("Gradient-3.jpeg");
+}
+#title{
+    color: blue;
+    font-family: 'Beau Rivage', cursive;;
+    font-size: 100px;
+}
+#msg{
+    background-color: blue;
+    color: greenyellow;
+}
